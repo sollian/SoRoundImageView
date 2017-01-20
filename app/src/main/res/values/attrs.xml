@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SoRoundImageView">
+
+        <attr name="riv_shape">
+            <enum name="rectangle"
+                  value="0" />
+            <enum name="circle"
+                  value="1" />
+        </attr>
+        <!--shape=rectangle时有效-->
+        <attr name="riv_cornerRadius"
+              format="dimension" />
+        <attr name="riv_strokeWidth"
+              format="dimension" />
+        <attr name="riv_strokeColor"
+              format="color" />
+    </declare-styleable>
+</resources>
